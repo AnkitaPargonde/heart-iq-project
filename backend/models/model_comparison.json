@@ -1,0 +1,64 @@
+{
+  "best_model": {
+    "model_name": "logistic_regression",
+    "best_params": {
+      "model__C": 2.5118864315095797
+    },
+    "cv_balanced_accuracy_mean": 0.8663,
+    "cv_f1_abnormal_mean": 0.8709,
+    "cv_recall_abnormal_mean": 0.9024,
+    "cv_precision_abnormal_mean": 0.8418,
+    "test_metrics": {
+      "accuracy": 0.8611,
+      "balanced_accuracy": 0.8624,
+      "precision_abnormal": 0.615,
+      "recall_abnormal": 0.8647,
+      "f1_abnormal": 0.7188,
+      "specificity_normal": 0.8602,
+      "roc_auc": 0.9228,
+      "confusion_matrix": [
+        [
+          443,
+          72
+        ],
+        [
+          18,
+          115
+        ]
+      ]
+    },
+    "selection_score": 0.8617
+  },
+  "all_models": [
+    {
+      "model_name": "logistic_regression",
+      "best_params": {
+        "model__C": 2.5118864315095797
+      },
+      "cv_balanced_accuracy_mean": 0.8663,
+      "cv_f1_abnormal_mean": 0.8709,
+      "cv_recall_abnormal_mean": 0.9024,
+      "cv_precision_abnormal_mean": 0.8418,
+      "test_metrics": {
+        "accuracy": 0.8611,
+        "balanced_accuracy": 0.8624,
+        "precision_abnormal": 0.615,
+        "recall_abnormal": 0.8647,
+        "f1_abnormal": 0.7188,
+        "specificity_normal": 0.8602,
+        "roc_auc": 0.9228,
+        "confusion_matrix": [
+          [
+            443,
+            72
+          ],
+          [
+            18,
+            115
+          ]
+        ]
+      },
+      "selection_score": 0.8617
+    }
+  ]
+}

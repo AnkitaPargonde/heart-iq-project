@@ -1,0 +1,27 @@
+.venv/
+venv/
+*venv*/
+node_modules/
+__pycache__/
+.env
+dist/
+build/
+# Keep local metadata, uploaded recordings, and research datasets out of the public repository
+.codex/
+backend/uploads/
+backend/physionet_2016/
+backend/training.zip
+external_validation_wavs/
+bmd_train.csv
+test_external.wav
+external_validation_report.json
+backend/reports/
+backend/models/*.joblib
+
+# Internal project report kept local until reviewed for public release
+/Internal_2_report_aligned.pptx
+
+# Downloaded website pages are research notes, not app assets
+/frontend/public/models/heart_asset_download
+/frontend/public/models/heart_model_download
+/frontend/public/models/open3d_heart_download
